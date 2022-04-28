@@ -1,19 +1,3 @@
-// let pixel = document.getElementsByClassName('pixel');
-// console.log(pixel);
-
-// let linha = 5;
-// let coluna = 5;
-
-// for (let index = 0; index < linha; index += 1) {
-//     pixel +=1;
-//     console.log(pixel)
-//     for (let index = 0; index < coluna; index += 1) {
-//         pixel +=1;
-//         console.log(pixel);
-//     }
-// }
-// const pixel = document.querySelectorClass('pixel');
-// pixel.style.color = 'green';
 const firstColor = document.getElementById('black');
 const secondColor = document.getElementById('red');
 const thirdColor = document.getElementById('blue');
@@ -36,6 +20,7 @@ function adicionaClasse(event) {
   const changeColor = window.getComputedStyle(selected).backgroundColor;
   event.target.style.backgroundColor = changeColor;
 }
+// https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle
 
 for (const pixel of pixelGrade) {
   pixel.addEventListener('click', adicionaClasse);
