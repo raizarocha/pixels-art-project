@@ -25,3 +25,14 @@ function adicionaClasse(event) {
 for (const pixel of pixelGrade) {
   pixel.addEventListener('click', adicionaClasse);
 }
+
+function clearBoard() {
+  const pixel = document.querySelectorAll('.pixel');
+  for (let index = 0; index < pixel.length; index += 1) {
+    const colors = pixel[index];
+    colors.style.backgroundColor = 'white';
+  }
+}
+
+const clearBtn = document.getElementById('clear-board');
+clearBtn.addEventListener('click', clearBoard);
