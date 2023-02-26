@@ -4,10 +4,10 @@
 Nesse projeto foi desenvolvido um editor de arte com pixels, em que a pessoa usuária poderá escolher uma cor em uma paleta de cores e poderá pintar o que quiser em um quadro branco.
 
 Nele foi colocado em prática o que aprendemos sobre: <br />
-- Introdução à JavaScript :heavy_check_mark:; <br />
-- DOM :heavy_check_mark:; <br />
-- Eventos :heavy_check_mark:; <br />
-- Web Storage :heavy_check_mark:; <br />
+- Introdução à JavaScript :heavy_check_mark: <br />
+- DOM :heavy_check_mark: <br />
+- Eventos :heavy_check_mark: <br />
+- Web Storage :heavy_check_mark: <br />
 
 Lista de requisitos realizados por mim neste projeto: <br />
 1. Adicione à página o título "Paleta de Cores". <br />
